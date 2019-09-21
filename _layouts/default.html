@@ -7,7 +7,7 @@
     {% if site.google_verification %}
         <meta name="google-site-verification" content="{{ site.google_verification }}" />
     {% endif %}
-{% seo %}
+    {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -20,12 +20,12 @@
       <header>
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
-        <ul id="social">
-            <li><a href="https://twitter.com/EliW"><i class="fas fa-twitter"></i></a></li>
-            <li><a href="https://www.facebook.com/EliWhite"><i class="fas fa-facebook"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/eliwhite/"><i class="fas fa-linkedin"></i></a></li>
-            <li><a href="{{ site.github.owner_url }}"><i class="fas fa-github"></i></a></li>
-        </ul>
+        <div id="social">
+            <a href="https://twitter.com/EliW"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/EliWhite"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/eliwhite/"><i class="fab fa-linkedin"></i></a>
+            <a href="{{ site.github.owner_url }}"><i class="fab fa-github"></i></a>
+        </div>
         <ul>
             <li><a class="buttons github" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
             <li><a class="buttons github" href="https://twitter.com/EliW">GitHub Profile</a></li>
