@@ -2,3 +2,12 @@
 ---
 
 @import "{{ site.theme }}";
+
+#social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header {
+    background: #3182CE;
+}
