@@ -10,15 +10,28 @@
 
 header {
     background: #3182CE;
+    z-index: 2;
 }
 
 #tabs {
     display: flex;
     flex-direction: column;
+    width: 196px;
+    border-bottom: 1px solid white;
+    margin-top: 25px;
 }
 
 #tabs a {
-    background-color: red;
+    background-color: #718096;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+    padding: 5px 10px 5px 0;
+
+}
+
+#tabs a:hover {
+    background-color: #2C5282;
 }
 
 footer p {
