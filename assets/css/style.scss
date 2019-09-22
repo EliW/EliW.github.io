@@ -11,3 +11,12 @@
 header {
     background: #3182CE;
 }
+
+#tabs {
+    display: flex;
+    flex-direction: column;
+}
+
+#tabs a {
+    background-color: red;
+}
