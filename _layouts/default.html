@@ -27,11 +27,9 @@
             <a href="{{ site.github.owner_url }}"><i class="fab fa-github fa-2x"></i></a>
         </div>
         <div id="tabs">
-            <ul>
-               {% for item in site.data.navigation %}
-                  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-               {% endfor %}
-            </ul>
+           {% for item in site.data.navigation %}
+              <a href="{{ item.url }}">{{ item.title }}</a>
+           {% endfor %}
         </div>
       </header>
 
