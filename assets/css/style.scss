@@ -31,10 +31,10 @@ header {
     border-left: 1px solid white;
 }
 
-#tabs a:hover {
+#tabs a:hover, #tabs a.active {
     background-color: #2C5282;
 }
-#tabs a:hover:after {
+#tabs a:hover:after, #tabs a.active {
     content: " > ";
 }
 

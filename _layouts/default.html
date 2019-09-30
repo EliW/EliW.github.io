@@ -28,7 +28,7 @@
         </div>
         <div id="tabs">
            {% for item in site.data.navigation %}
-              <a href="{{ item.link }}">{{ item.name }}</a>
+              <a class="{% if item.link == page.url %}active{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
            {% endfor %}
         </div>
       </header>
