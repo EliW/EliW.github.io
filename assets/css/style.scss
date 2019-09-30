@@ -3,6 +3,19 @@
 
 @import "{{ site.theme }}";
 
+a {
+    color: #3182CE;
+    font-weight: 400;
+}
+
+img[alt="Eli"] {
+    float: right;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 150px;
+    margin: 10px;
+}
+
 #social {
     display: flex;
     justify-content: space-evenly;
@@ -34,7 +47,10 @@ header {
 #tabs a:hover, #tabs a.active {
     background-color: #2C5282;
 }
-#tabs a:hover:after, #tabs a.active {
+#tabs a.active:hover {
+    text-decoration: none;
+}
+#tabs a:hover:after, #tabs a.active:after {
     content: " > ";
 }
 

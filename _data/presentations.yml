@@ -1,8 +1,197 @@
 - year: 2019
   events:
-  - name: CascadiaPHP
-    date: September 21, 2019
-    talks:
-    - title: "Hacking WordPress: A Primer for PHP Devs"
-      file: xx.pdf
+    - name: CascadiaPHP
+      date: September 21, 2019
+      loc: Portland, OR
+      talks:
+        - title: "Hacking WordPress: A Primer for PHP Devs"
+          file: cascadia.wordpress.pdf
+
 - year: 2018
+  events:
+    - name: Baltimore WordCamp
+      date: October 2018
+      loc: Baltimore, MD
+      talks:
+        - title: What’s Happening in PHP?
+          file: bwc.whatsnew.pdf
+
+    - name: Frederick WebTech
+      date: June 2018
+      loc: Frederick, MD
+      talks:
+      - title: What’s Happening in PHP?
+        file: FWT.whatsnew.pdf
+
+- year: 2017
+  events:
+    - name: Kansas City Developers Conference 2017
+      date: August 4, 2017
+      loc: Kansas City, MS
+      talks:
+        - title: "Hacking WordPress: A Crash Course in Plugins & Widgets"
+          file: kcdc.wordpress.pdf
+        - title: Web Security Essentials
+          file: kcdc.security.pdf
+
+#PrairieDevCon 2017 – Winnipeg, Manitoba, Canada
+#What’s New with PHP? [pdf]
+#Refactor, Don’t Rebuild [pdf]
+#Revolution Conf 2017 – Virginia Beach, VA
+#Web Security Basics [pdf]
+#Lone Star PHP 2017 – Addison, TX
+#How I Learned to Stop Caring, and Made Better Software [pdf]
+#PHP UK 2017 – February 2017 – London, UK
+#Keynote: State of the PHP Community [pdf]
+#Training: Web Security Essentials [pdf] [code samples]
+#ConFoo Vancouver – December 2016 – Vancouver, Canada
+#PHP OOP: An Object Oriented Programming Primer [pdf]
+#What’s Happening in PHP? [pdf]
+#Connect.Tech – October 2016 – Atlanta, GA
+#Iterators, ArrayAccess, and Countable — On My! [pdf]
+#PHP OOP: An Object Oriented Programming Primer [pdf]
+#PNWPHP – September 2016 – Seattle, WA
+#Tutorial: Web Security Fundamentals [pdf] [code]
+#State of the PHP Community [pdf]
+#php[cruise] – July 2016 – Atlantic Ocean
+#Refactor, Don’t Rebuild [pdf]
+#Midwest PHP – March, 2016 – Minneapolis, Minnesota
+#Caching Best Practices [pdf]
+#ConFoo – February 2016 – Montreal, Canada
+#How I Learned to Stop Caring, and Make Better Software [pdf]
+#Horizontal vs Vertical Scaling [pdf]
+#SunshinePHP – February 2016 – Miami, FL
+#Web Security and You [pdf]
+#SkiPHP – January 2016 – Salt Lake City, Utah
+#Refactor, Don’t Rebuild [pdf]
+#PHP Benelux – January 2016 – Antwerp, Belgium
+#TUTORIAL: Web Security Essentials [pdf]
+#That Conference – August 2015 – Wisconsin Dells, WI
+#Amazon SimpleDB [pdf]
+#OSCON – July 2015 – Portland, OR
+#TUTORIAL: Web Security Essentials [pdf]
+#Remote Working / Asynchronous Working [pdf]
+#self.conference – May 2015 – Detroit, MI
+#How I Learned to Stop Caring, and Made Better Software [pdf]
+#WordPress DC Meetup – March 2015 – Washington, D.C.
+#XSS, CSRF, and WordPress [pdf]
+#Midwest 2014 – March 2014 – Minneapolis, Minnesota
+#How I Learned to Stop Caring, and Made Better Software [pdf]
+#Web Security and You [pdf]
+#ConFoo 2014 – February 2014 – Montreal, Canada
+#Remote Working / Asynchronous Working [pdf]
+#Responsive Design - When,Where,Why, or Why Not? [pdf]
+#PHP UK 2014 – February 2014 – London, UK
+#Caching Best Practices [pdf]
+#Web Security and You [pdf]
+#SunshinePHP 2014 – February 2014 – Miami, FL
+#Hacking WordPress: A Crash Course in Writing Plugins and Widgets [pdf]
+#SkiPHP 2014 – January 2014 – Salt Lake City, UT
+#Iterators, ArrayAccess, and Countable — On My! [pdf]
+#Web Security and You [pdf]
+#ZendCon 2013 – October 2013 – Santa Clara, CA
+#Scaling in the Cloud with Amazon Web Services [key] [pdf]
+#NorthEast PHP 2013 – August 2013 – Boston, MA
+#Looking to the Past, to Predict the Future [key] [pdf]
+#That Conference 2013 – August 2013 – Wisconsin Dells, WI
+#Scaling in the Cloud with Amazon Web Services [key] [pdf]
+#Distill – August 2013 – San Francisco, CA
+#Anti-Spam & Anti-Gaming Tactics [key] [pdf]
+#Lone Star PHP 2013 – June 2013 – Addison, TX
+#Web Security and You (Extended) [key] [pdf]
+#ConFoo 2013 – February 2013 – Montreal, Canada
+#Scaling in the Cloud with Amazon Web Services [key] [pdf]
+#Iterators, ArrayAccess and Countable, Oh My! [key] [pdf]
+#php|tek 2012 – May 2012 – Chicago, IL
+#Amazon SimpleDB [key] [pdf]
+#Web Security and You [key] [pdf]
+#ConFoo 2012 – March 2012 – Montreal, Canada
+#Scaling in the Cloud with Amazon Web Services [key] [pdf]
+#Web Security and You [key] [pdf]
+#Baltimore PHP Meetup – February 2012 – Columbia, MD
+#Scaling in the Cloud with Amazon Web Services [key] [pdf]
+#Frederick WebTech Meetup – January 2012 – Frederick, MD
+#Scaling in the Cloud with Amazon Web Services [key] [pdf]
+#DC PHP Meetup – December 2011 – Washington, DC
+#Scaling in the Cloud with Amazon Web Services [key] [pdf]
+#CodeWorks 2011 – Baltimore, MD
+#Scaling in the Cloud with Amazon Web Services [key] [pdf]
+#SXSW 2011 – Austin, TX
+#Big Data and APIs for PHP Developers [key] [pdf]
+#ZendCon 2010 – Santa Clara, CA
+#Cloudy with a Chance of PHP [pdf]
+#Anti-Spam & Anti-Gaming Tactics [key] [pdf]
+#PHP Tek X – 2010 – Chicago, IL
+#Anti-Spam & Anti-Gaming Tactics [key] [pdf]
+#Code & Release Management [key] [pdf]
+#ConFoo 2010 – Montreal, Canada
+#Highly Scalable Web Applications [key] [pdf]
+#Anti-Spam & Anti-Gaming Tactics [key] [pdf]
+#Baltimore PHP User Group – Columbia, MD
+#The Knight Rider Methodology to Software Development [odp] [pdf]
+#PHP Conference Brasil 2009 – Sao Paulo, Brazil
+#Highly Scalable Web Applications (Keynote) [key] [pdf]
+#Enterprise LAMP CAMP 2009 – Nashville, TN
+#Habits of Highly Scalable Web Applications [key] [pdf]
+#CodeWorks 2009 – Washington, DC
+#The Knight Rider Methodology to Software Development [odp] [pdf]
+#DCPHP Conference 2009 – Washington, DC
+#Habits of Highly Scalable Web Applications [odp] [pdf]
+#Code & Release Management [odp] [pdf]
+#Frederick Web Technology Meetup Sept 2009 – Frederick, MD
+#Highly Scalable Web Applications [odp] [pdf]
+#Dutch PHP Conference 2009 – Amsterdam, Netherlands
+#Habits of Highly Scalable Web Applications [odp] [pdf]
+#Code & Release Management [odp] [pdf]
+#PHP|tek 2009 – Chicago, IL
+#Highly Scalable Web Applications [odp] [pdf]
+#The Knight Rider Methodology to Software Development [odp] [pdf]
+#PHP|tek Webinar Series – online
+#Code & Release Management [odp] [pdf]
+#ZendCon 2008 – Santa Clara, CA
+#The Knight Rider Methodology to Software Development [odp] [pdf]
+#High Performance PHP & MySQL Scaling Techniques [odp] [pdf]
+#DCPHP 2008 – Washington, DC
+#SPL Iterators [odp] [pdf]
+#High Performance PHP & MySQL Scaling Techniques [odp] [pdf]
+#PHP|tek 2008 – Chicago, IL
+#Help, my website has been hacked! Now What? [odp] [pdf]
+#High Performance PHP & MySQL Scaling Techniques [odp] [pdf]
+#MySQL Conference 2008 – Santa Clara, CA
+#Help, my website has been hacked! Now What? [odp] [pdf]
+#PHP Quebec 2008 – Montreal, Canada
+#High Performance PHP & MySQL Scaling Techniques [odp] [pdf]
+#Help, my website has been hacked! Now What? [odp] [pdf]
+#DCPHP 2007 – Washington, DC
+#High Performance PHP & MySQL Scaling Techniques [odp] [pdf]
+#Help, my website has been hacked! Now What? [odp] [pdf]
+#ZendCon 2007 – San Francisco, CA
+#PHP Features You Didn’t Know Existed [odp] [pdf]
+#High Performance PHP & MySQL Scaling Techniques [odp] [pdf]
+#PHP|works 2007 – Atlantia, GA
+#PHP Features You Didn’t Know Existed [odp] [pdf]
+#High Performance PHP [odp] [pdf]
+#PHP|tek 2007 – Chicago, IL
+#PHP Features You Didn’t Know Existed [odp] [pdf]
+#MySQL User Conference 2007 – Santa Clara, CA
+#Technology @ Digg [odp] [pdf]
+#PHP Columbia Meetup – Columbia, MD
+#PHP @ Digg
+#ZendCON 2006 – San Jose, CA
+#High Volume PHP & MySQL Scaling Techniques
+#DCPHP 2006 – Washington, DC
+#Top PHP Feautures You Didn’t Know Existed
+#High Volume PHP & MySQL Scaling Techniques
+#PHP|works 2006 – Toronto, Canada
+#Top PHP Tricks
+#High Volume PHP & MySQL Scaling Techniques
+#Handling data without databases
+#PHP Quebec 2005 – Montreal, Canada
+#Apache Logfile Data Mining – (Main Example)
+#International PHP 2004 Conference, Spring Edition – Amsterdam
+#You don’t need a database, to handle data
+#Case Study – A Filesystem Database for Hubble Space Telescope Releases
+#PaWSCON 2004 – Manchester, UK
+#You don’t need a database, to handle data
+#CSS and Liquid Design – How to, and where CSS fails us – (Examples)
+#Complete CSS & XHTML development for current browsers – (Examples)

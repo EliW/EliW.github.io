@@ -28,7 +28,8 @@
         </div>
         <div id="tabs">
            {% for item in site.data.navigation %}
-              <a class="{% if item.link == page.url %}active{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
+              {% capture pg_url %}{{ page.url | replace: ".html", ""}}{% endcapture %}
+              <a class="{% if item.link == pg_url %}active{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
            {% endfor %}
         </div>
       </header>
