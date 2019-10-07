@@ -54,6 +54,48 @@ header {
     content: " > ";
 }
 
+@media only screen and (max-width: 960px) {
+    #tabs {
+        flex-direction: row;
+        border-bottom: none;
+        border-left: 1px solid white;
+        width: 100%;
+    }
+    #tabs a {
+        border-right: 1px solid white;
+        border-left: none;
+        flex-basis: 150px;
+        flex: 1 1;
+        text-align: center;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    header {
+        padding-bottom: 0;
+        padding-right: 50px;
+    }
+    .inner {
+        position: relative;
+    }
+    #tabs a.active {
+    }
+    #tabs a:hover:after, #tabs a.active:after {
+        content: "";
+    }
+    #social {
+        position: absolute;
+        right: 0;
+        top: 5px;
+    }
+    #social a {
+        margin-left: 1em;
+    }
+}
+
+.fab:hover {
+    text-shadow: 2px 2px #4c5665;
+}
+
 footer p {
     margin-bottom: 0;
     line-height: 1.2;
