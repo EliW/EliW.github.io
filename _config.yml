@@ -4,4 +4,8 @@ google_analytics: UA-15566807-1
 google_verification: 9ht805RwYCWV-TOp0OgBYluGH9--CzPwHdkTEVGi-lg
 
 title: Eli White
-description: Geek. Father. Husband. Gamer. Developer. Business Owner.
+description: Technology Leader. CTO. Innovator. Keynote Speaker. Developer. Geek. Father. Husband. Gamer.
+email: web@eliw.com
+
+plugins:
+- jekyll-email-protect

@@ -3,7 +3,7 @@
 
 ## Presentations
 
-I've given a lot of presentations about programming and technology at conferences and user groups around the world.  I have them all listed below, with links to the slide decks.
+Following is a non-comprehensive list of presentations about programming and technology I've given at conferences and user groups around the world.
 
 {% for item in site.data.presentations %}
 ### {{ item.year }}

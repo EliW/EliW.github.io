@@ -1,6 +1,8 @@
-- name: Home
+- name: About Me
   link: /
 - name: Presentations
   link: /presentations
+- name: Resume
+  link: /assets/resumes/Elliott-White-Technology-Leader-2023.pdf
 #- name: Ramblings
 #  link: /ramblings
