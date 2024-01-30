@@ -22,10 +22,11 @@
             <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
             <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
             <div id="social">
-                <a href="https://twitter.com/EliW"><i class="fab fa-twitter fa-2x"></i></a>
-                <a href="https://www.facebook.com/EliWhite"><i class="fab fa-facebook fa-2x"></i></a>
-                <a href="https://www.linkedin.com/in/eliwhite/"><i class="fab fa-linkedin fa-2x"></i></a>
-                <a href="{{ site.github.owner_url }}"><i class="fab fa-github fa-2x"></i></a>
+                <a rel="me"  href="https://twitter.com/EliW"><i class="fab fa-twitter fa-2x"></i></a>
+                <a rel="me"  href="https://www.facebook.com/EliWhite"><i class="fab fa-facebook fa-2x"></i></a>
+                <a rel="me"  href="https://www.linkedin.com/in/eliwhite/"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a rel="me"  href="{{ site.github.owner_url }}"><i class="fab fa-github fa-2x"></i></a>
+                <a rel="me" href="https://phpc.social/@EliW"><i class="fab fa-mastodon fa-2x"></i></a>
             </div>
             <div id="tabs">
                {% for item in site.data.navigation %}

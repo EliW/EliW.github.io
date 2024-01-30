@@ -26,6 +26,7 @@
 <a href="https://www.facebook.com/EliWhite"><i class="fab fa-facebook fa-2x"></i></a>
 <a href="https://www.linkedin.com/in/eliwhite/"><i class="fab fa-linkedin fa-2x"></i></a>
 <a href="{{ site.github.owner_url }}"><i class="fab fa-github fa-2x"></i></a>
+<a rel="me" href="https://phpc.social/@EliW"><i class="fab fa-mastodon fa-2x"></i></a>
 <a href="mailto:{{ site.email | encode_email }}"><i class="fa fa-envelope fa-2x"></i></a>
 
 For a detailed look at my professional journey, download my [resume](/assets/resumes/Elliott-White-Technology-Leader-2023.pdf), view a list of my previous [presentations](/presentations) that I've given, or reach out for potential collaborations and opportunities.
